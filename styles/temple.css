@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Arial block', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2f323417;
+    color: rgb(142, 137, 208);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Arial block', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #060606f5;
+}
+
+nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+nav ul li a {
+    color: rgb(237, 229, 229);
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #238dc2;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+figure {
+    margin: 0 0 1rem 0;
+}
+
+h2 {
+    font-weight: bold;
+    background-color: #2c77f0;
+    text-align: center;
+    margin: 5%;
+    padding: 0%;
+    width: auto;
+}
+
+img {
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    max-width: 50%;
+    text-align: center; 
+}
+
+footer {
+    background-color: #333;
+    color: rgb(69, 178, 218);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: rgb(160, 128, 128);
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+@media screen and (max-width: 32rem) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav.open ul {
+        display: block;
+    }
+}
