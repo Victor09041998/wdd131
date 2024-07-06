@@ -61,7 +61,7 @@ h2 {
 }
 
 img {
-    width: 50%; 
+    width: 50%; /* Ensures images take full width of their container */
     height: auto; 
     display: block; 
     max-width: 50%;
