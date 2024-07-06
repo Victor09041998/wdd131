@@ -5,7 +5,7 @@ body {
     background-image: url('images/nigeria.jpeg');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #112265;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@ body {
 
 header {
     padding: 20px;
+    background-color: rgb(13, 80, 23);
 }
 
 .header-background > img.header-img {
@@ -36,7 +37,13 @@ main {
     position: relative;
 }
 
-#weather {
+.info-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.weather-card {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
