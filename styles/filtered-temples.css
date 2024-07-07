@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial block', sans-serif;
     margin: 0;
@@ -77,6 +76,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .hamburger {
     display: none;
     background: none;
