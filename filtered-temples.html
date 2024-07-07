@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <link rel="stylesheet" href="styles/filtered-temple.css">
+    <link rel="stylesheet" href="styles/temple-larger.css" media="screen and (min-width: 32rem)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>TEMPLE ALBUMS</h1>
+    </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="filtered-temples.html">Home</a></li>
+                <li><a href="#" id="oldTemples">Old</a></li>
+                <li><a href="#" id="newTemples">New</a></li>
+                <li><a href="#" id="largeTemples">Large</a></li>
+                <li><a href="#" id="smallTemples">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Current Selection</h2>
+        <div id="templeContainer" class="image-grid">
+            <!-- Dynamic content will be added here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Godspower Victor Uduma. Abia State, Nigeria.</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

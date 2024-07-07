@@ -1,0 +1,23 @@
+@media screen and (min-width: 32rem) {
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    footer {
+        position: static;
+    }
+}
