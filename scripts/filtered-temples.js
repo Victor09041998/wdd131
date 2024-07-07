@@ -65,7 +65,16 @@ document.addEventListener('DOMContentLoaded', () => {
             imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
           },
-        // Add more temple objects as per instructions
+          {
+            templeName: "Apia Somoa",
+            location: "Apia, Samoa",
+            dedicated: "2005, September, 4",
+            area: 18691,
+            imageUrl:
+            "https://https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/apia-samoa/400x225/apia-samoa-temple-lds-495972-wallpaper.jpg"
+          }
+          
+        
     ];
 
     function generateTempleCards(templeList) {
