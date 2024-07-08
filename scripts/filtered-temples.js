@@ -72,6 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
             area: 18691,
             imageUrl:
             "https://https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/apia-samoa/400x225/apia-samoa-temple-lds-495972-wallpaper.jpg"
+          },
+          {
+            templeName: ">Bentonville Arkansas",
+            location: ">Bentonville, Arkansas",
+            dedicated: "2023, September, 17",
+            area: 25000,
+            imageUrl:"https://https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/34410870d7d011ed8402eeeeac1ec672dc0ce45.jpeg"
           }
           
         
