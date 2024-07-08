@@ -43,6 +43,7 @@ header nav a.active, header nav a:hover {
 main {
     flex-grow: 1;
     padding: 1rem;
+    background-color: #a22f1b;
 }
 
 #temple-album {
