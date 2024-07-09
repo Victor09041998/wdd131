@@ -43,69 +43,64 @@ header nav a.active, header nav a:hover {
 main {
     flex-grow: 1;
     padding: 1rem;
-    background-color: #a22f1b;
+    background-color: #a0b0bc;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0c0707;
 }
 
 #temple-album {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
     gap: 1rem;
+    justify-items: center;
 }
 
-figure {
-    background-color: #192b04;
+.card {
+    background-color: #3a6608;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 2px 5px rgba(98, 47, 47, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 100%;
 }
 
-figure:hover {
+.card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(188, 133, 133, 0.2);
 }
 
-figure img {
+.card img {
     width: 100%;
     height: auto;
 }
 
-figcaption {
+.card figcaption {
     padding: 0.5rem;
     font-size: 1rem;
+    color: #e5ecef;
 }
 
-h3 {
+.card figcaption p {
+    margin: 0.5rem 0;
+}
+
+.card h3 {
     margin: 0.5rem 0;
 }
 
 /* Footer styling */
 footer {
-    background-color: #4496d5;
-    color: #080b0c;
+    background-color: #08090a;
+    color: #e5ecef;
     text-align: center;
     padding: 1rem;
 }
 
 footer p {
     margin: 0.5rem 0;
-}
-
-/* Media queries for responsiveness */
-@media screen and (max-width: 32rem) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    header nav {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    header nav a {
-        width: 100%;
-        text-align: center;
-    }
 }

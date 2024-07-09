@@ -9,9 +9,13 @@
     }
     
     main {
-        display: grid;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 1rem;
+        padding: 1rem;
+
     }
 
     figure {
